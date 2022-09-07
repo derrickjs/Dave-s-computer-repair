@@ -1,0 +1,138 @@
+body{
+    background-image: url("https://res.cloudinary.com/derrickstahlman/image/upload/v1662562332/Daves_Repair_ei5hbz.png");
+  
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    z-index:0;
+  }
+  
+  p{
+    font-size:1.5em
+  }
+  
+  h1{
+    color:#3d4654;
+  }
+  
+  
+  
+  .bar{
+  background-color: #b3d0ff;
+  position: sticky;
+  top:0px;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  z-index: 10; 
+  border: 2px solid black;
+   
+  }
+  
+  .nav{
+      
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #b3d0ff;
+    list-style-type: none;
+    font-size:2em;
+    
+  }
+  
+  a:link {
+    color: #2e2e2e;
+    background-color:#b3d0ff;
+    text-decoration: none;
+    
+  }
+  
+  a:visited {
+    color: purple ;
+    background-color: #b3d0ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #0000B8;
+    background-color:#7aa9f5;
+    text-decoration: none;
+  }
+  
+  footer{
+    background-color: #b3d0ff;
+    border: 2px solid black;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    min-height: 30px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    }
+  
+  
+  .bigbox{
+    margin: 4%;
+    font-size:.5em;
+    border: 2px solid black;
+    text-align: center;
+      background-color: #b3d0ff;
+  
+    
+  }
+  
+  .h2 { 
+    border: 4px dotted black;
+    margin:3%;
+    padding:3%;
+    text-align: left;
+    color:#3d4654;
+  }
+  
+  .daves{ 
+    width:35%;
+    font-size: 1.8em;
+    text-align:center;
+    display:inline-block;
+    vertical-align:top;
+     
+  
+    
+    
+  
+  
+    
+  }
+  
+  .img1{
+    width: 30%;
+    display:inline-block;
+  
+    
+  
+  }
+  
+  .davesprices{ 
+    width:30%;
+    font-size:1.8em;
+    text-align:center;
+    display:inline-block;
+    vertical-align: top;
+    float: right;
+    
+    
+  }
+  
+  .bigger{
+    font-size:2em;
+  }
+  
+  .menuitem{
+    margin:3%;
+   
+    
+  }
+  
+  
